@@ -31,7 +31,15 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p></p>
+          <h3>AccessiReference</h3>
+          <p>AccessiReference is designed to act as a simple, convienent reference for accessibility functionality. The goal of this app is to make it easy for developers to learn more about accessible design choices so that they can practice adding accessibility features to their applications. This application is currently in progress. It is being completed while I work through Deque University's online web accessibility curriculum.</p>
+
+          <h3>Northwest Coffee Company</h3>
+          <p>NWCC is a sample site made for a fictitious coffee marketplace. It utilizes the Faker Ruby gem to seed the items and reviews into the database. Creating this site helped me learn more about Ruby On Rails, styling, and databases.</p>
+
+          <h3>Angular Study App</h3>
+          <p>This is a collaborative study app that was made with Angular 2. The app has blog, forum, and live chat features to help collaborators succeed. It also possesses authentication functionality, hosting and database features through Firebase, and Materialize styling.</p>
+
           {close}
         </article>
 
