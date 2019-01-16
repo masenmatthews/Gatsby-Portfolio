@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import masen from '../images/masen.JPG'
+import masen from '../images/masen.jpg'
 import code from '../images/code.jpg'
 import letter from '../images/letter.jpeg'
 
