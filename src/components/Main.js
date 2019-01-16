@@ -30,7 +30,7 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <span className="image main"><img src={code} alt="Black and white photo of a laptop with coding window open on the display." /></span>
           <h3>AccessiReference</h3>
-          <h4><a href="https://github.com/masenmatthews/AccessiReference">Repository</a></h4>
+          <h4><a href="https://github.com/masenmatthews/AccessiReference">Repository</a><a href="https://practical-nightingale-ecd7dc.netlify.com/"> Live Preview</a></h4>
           <p>AccessiReference is designed to act as a simple, convienent reference for accessibility functionality. The goal of this app is to make it easy for developers to learn more about accessible design choices so that they can practice adding accessibility features to their applications. This application is currently in progress. It is being completed while I work through Deque University's online web accessibility curriculum.</p>
 
           <h3>Northwest Coffee Company</h3>
