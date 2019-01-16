@@ -41,6 +41,10 @@ class Main extends React.Component {
           <h4><a href="https://github.com/masenmatthews/Angular_Study_App">Repository |</a><a href="https://angular-teameek-study-app.firebaseapp.com"> Live Preview</a></h4>
           <p>This is a collaborative study app that was made with Angular 2. The app has blog, forum, and live chat features to help collaborators succeed. It also possesses authentication functionality, hosting and database features through Firebase, and Materialize styling.</p>
 
+          <h3>React Weather App</h3>
+          <h4><a href="https://github.com/masenmatthews/React-Weather-App">Repository |</a><a href="#"> Live Preview Coming Soon</a></h4>
+          <p>This is a simple weather app that was built with React. It pulls weather data from the OpenWeather API when the user enters a city and the country that it is in. This project has helped me learn more about React, state, and pulling data from APIs.</p>
+
           <h3>More projects coming soon!</h3>
 
           {close}
