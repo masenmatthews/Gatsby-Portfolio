@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import masen from '../images/masen.jpg'
+import masen from '../images/masen.JPG'
 import code from '../images/code.jpg'
 import letter from '../images/letter.jpeg'
 
@@ -15,7 +15,7 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
-          <span className="image main"><img src={masen} alt="" /></span>
+          <span className="image main"><img src={masen} alt="picture of Masen Matthews" /></span>
             <p>I'm a web developer based in Portland, Oregon. My background is primarily rooted in JavaScript, Ruby, and Python. I also have experience using technologies like Git, Ruby On Rails, React, Angular, and SQL. I am constantly adding to this list and love embracing oppurtunities to learn about new languages, frameworks, and development tools. If you're interested in checking out my latest coding endeavors, feel free to check out my <a href="https://github.com/masenmatthews">GitHub</a></p>
 
             <p>My main passion for web development lies in the realm of accessibility. I want to make the web a more inclusive place for people with disabilities and I ultimately dream of finding a place in the tech industry that allows me to help disabled individuals succeed with technology. Similarly, I'm passionate about using technology as a means of fostering social change, sustainability, and socioeconomic mobility for those in need.</p>
