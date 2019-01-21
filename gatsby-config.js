@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Dimension V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+    title: "Masen Matthews - Portfolio Site",
+    author: "Masen Matthews",
+    description: "Masen Matthews web development portfolio site based off of the Dimension V2 Gatsby starter"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/masenmatthews.jpg', 
+        icon: 'src/images/masenmatthews.jpg',
       },
     },
     'gatsby-plugin-sass',
