@@ -50,7 +50,7 @@ class Main extends React.Component {
           <h2 className="major">Open source</h2>
           <h3>Portland Future Leaders In Tech (pdxFLIT)</h3>
           <h4><a href="https://github.com/PDXFlit/website" target="_">Repository |</a><a href="https://pdxflit.com/" target="_"> Live Preview</a></h4>
-          <p>I helped build the main pdxFLIT site, which showcases the local<a href="" target="_"> meetup</a> that I started and continue to run. This site is being operated as an open source project because we want to help people get into the world of open source and assist them in making their first contributions. My specific contributions to this site have included making the "about" page, the "contact" page, and the Code of Conduct. I have also played a role in merging branches and approving pull requests.</p>
+          <p>I helped build the main pdxFLIT site, which showcases the local<a href="https://www.meetup.com/pdxFLIT-Portland-Future-Leaders-In-Tech/" target="_"> meetup</a> that I started and continue to run. This site is being operated as an open source project because we want to help people get into the world of open source and assist them in making their first contributions. My specific contributions to this site have included making the "about" page, the "contact" page, and the Code of Conduct. I have also played a role in merging branches and approving pull requests.</p>
 
           {close}
         </article>
