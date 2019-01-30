@@ -2,7 +2,7 @@
   "name": "masenmatthews",
   "description": "Masen Matthews portfolio",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Masen Matthews",
   "dependencies": {
     "gatsby": "^2.0.76",
     "gatsby-cli": "^2.4.8",
