@@ -3,6 +3,12 @@
 ## Description
 This is my personal portfolio site. It's designed to show off my development work to employers, friends, etc. This portfolio was built with the Gatsby Dimension starter template. 
 
+## Technologies
+This site utilizes React, Gatsby and NPM. It is being hosted with Netlify. 
+
+## Live site
+You can view this live site at https://www.masenmatthews.com/. 
+
 ## Template preview
 
 https://gatsby-dimension.surge.sh/
