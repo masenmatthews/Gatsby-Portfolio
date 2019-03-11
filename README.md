@@ -1,12 +1,15 @@
 # Masen Matthews Portfolio Site
 
-## Starter information
-
-Gatsby.js V2 starter based on the Dimension site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+## Description
+This is my personal portfolio site. It's designed to show off my development work to employers, friends, etc. This portfolio was built with the Gatsby Dimension starter template. 
 
 ## Template preview
 
 https://gatsby-dimension.surge.sh/
+
+## Starter information
+
+Gatsby.js V2 starter based on the Dimension site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
 
 ## Installation
 
