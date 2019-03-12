@@ -20,8 +20,6 @@ class Main extends React.Component {
 
             <p>A large part of my passion for software development lies in the realm of accessibility. I want to make the web a more inclusive place for people with disabilities and I ultimately dream of finding a place in the tech industry that allows me to work in this capacity. Similarly, I'm passionate about using technology as a means of fostering social change, sustainability, and socioeconomic mobility for those in need.</p>
 
-            <p> Regardless of </p>
-
             <p>Builiding community inside and outside of the tech world is important to me as well. One of my more recent accomplishments has involved starting and operating a community organization called Portland Future Leaders In Tech (pdxFLIT). We host monthly events and operate as a welcoming, safe space for new developers and tech affiliates while providing mentorship and education oppurtunities. You can learn more about pdxFLIT <a href="https://www.meetup.com/pdxFLIT-Portland-Future-Leaders-In-Tech/" target="_">here!</a></p>
 
             <p>My hobbies and interests outside of technology primarily consist of activities related to food and music. I can generally be found frequenting shows at Portland venues like Wonder Ballroom and Doug Fir Lounge, playing guitar, and diving into the newest and loudest bands popping up across the horizon. I also enjoy concocting new recipes and exploring all of the wonderful food options that the city has to offer.</p>
@@ -48,6 +46,12 @@ class Main extends React.Component {
           <h3>AccessiReference</h3>
           <h4><a href="https://github.com/masenmatthews/AccessiReference" target="_">Repository |</a><a href="https://practical-nightingale-ecd7dc.netlify.com/" target="_"> Live Preview</a></h4>
           <p>AccessiReference is designed to act as a simple, convienent reference for accessibility functionality. The goal of this app is to make it easy for developers to learn more about accessible design choices so that they can practice adding accessibility features to their applications. This application is currently in the very early stages of development. It is being completed while I work through Deque University's online web accessibility curriculum.</p>
+
+          <h2 className="major">Talks</h2>
+          <h3>Donut.js (11/2018)</h3>
+          <h3>Developing for All: The Who, What, and Why of Accessibility in Technology</h3>
+          <h4><a href="https://github.com/PDXFlit/website" target = "_" >Video recording</a><h4>
+          <p>A talk that I gave at a Portland Meetup about the importance of accessibility in technology.</p>
 
           <h2 className="major">Open source</h2>
           <h3>Portland Future Leaders In Tech (pdxFLIT)</h3>
