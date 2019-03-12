@@ -16,9 +16,11 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h1 className="major">About</h1>
           <span className="image main"><img src={masen} alt="Masen Matthews" /></span>
-            <p>I'm a web developer based in Portland, Oregon. My background is primarily rooted in JavaScript, Ruby, and React. I also have experience using technologies like Git, Ruby On Rails, Python, Angular, and SQL. I am constantly adding to this list and love embracing oppurtunities to learn about new languages, frameworks, and development tools. If you're interested in checking out my latest coding endeavors, feel free to check out my <a href="https://github.com/masenmatthews" target="_">GitHub</a></p>
+            <p>I'm a software developer based in Portland, Oregon. My background is primarily rooted in JavaScript, Ruby, and Python. I also have experience using technologies like Git, Ruby On Rails, React, Angular, and SQL. I am constantly adding to this list and love embracing oppurtunities to learn about new languages, frameworks, and development tools. My immediate goals are centered around finding a full time position in the world of tech that allows me to learn, grow, and work alongside a team of inpsiring people. I'm quick to embrace challenges and I find gratification in diving into the unknown. If you're interested in checking out my latest coding endeavors, feel free to take a look at my <a href="https://github.com/masenmatthews" target="_">GitHub</a></p>
 
-            <p>My main passion for web development lies in the realm of accessibility. I want to make the web a more inclusive place for people with disabilities and I ultimately dream of finding a place in the tech industry that allows me to help disabled individuals succeed with technology. Similarly, I'm passionate about using technology as a means of fostering social change, sustainability, and socioeconomic mobility for those in need.</p>
+            <p>A large part of my passion for software development lies in the realm of accessibility. I want to make the web a more inclusive place for people with disabilities and I ultimately dream of finding a place in the tech industry that allows me to work in this capacity. Similarly, I'm passionate about using technology as a means of fostering social change, sustainability, and socioeconomic mobility for those in need.</p>
+
+            <p> Regardless of </p>
 
             <p>Builiding community inside and outside of the tech world is important to me as well. One of my more recent accomplishments has involved starting and operating a community organization called Portland Future Leaders In Tech (pdxFLIT). We host monthly events and operate as a welcoming, safe space for new developers and tech affiliates while providing mentorship and education oppurtunities. You can learn more about pdxFLIT <a href="https://www.meetup.com/pdxFLIT-Portland-Future-Leaders-In-Tech/" target="_">here!</a></p>
 
@@ -45,7 +47,7 @@ class Main extends React.Component {
 
           <h3>AccessiReference</h3>
           <h4><a href="https://github.com/masenmatthews/AccessiReference" target="_">Repository |</a><a href="https://practical-nightingale-ecd7dc.netlify.com/" target="_"> Live Preview</a></h4>
-          <p>AccessiReference is designed to act as a simple, convienent reference for accessibility functionality. The goal of this app is to make it easy for developers to learn more about accessible design choices so that they can practice adding accessibility features to their applications. This application is currently in progress. It is being completed while I work through Deque University's online web accessibility curriculum.</p>
+          <p>AccessiReference is designed to act as a simple, convienent reference for accessibility functionality. The goal of this app is to make it easy for developers to learn more about accessible design choices so that they can practice adding accessibility features to their applications. This application is currently in the very early stages of development. It is being completed while I work through Deque University's online web accessibility curriculum.</p>
 
           <h2 className="major">Open source</h2>
           <h3>Portland Future Leaders In Tech (pdxFLIT)</h3>
