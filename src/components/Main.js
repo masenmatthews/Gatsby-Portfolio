@@ -50,7 +50,7 @@ class Main extends React.Component {
           <h2 className="major">Talks</h2>
           <h3>Donut.js (11/2018)</h3>
           <h3>Developing for All: The Who, What, and Why of Accessibility in Technology</h3>
-          <h4><a href="https://github.com/PDXFlit/website" target = "_" >Video recording</a><h4>
+          <h4><a href="https://github.com/PDXFlit/website" target = "_" >Video recording</a></h4>
           <p>A talk that I gave at a Portland Meetup about the importance of accessibility in technology.</p>
 
           <h2 className="major">Open source</h2>
