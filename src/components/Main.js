@@ -33,30 +33,31 @@ class Main extends React.Component {
 
           <h3>Northwest Coffee Company</h3>
           <h4><a href="https://github.com/masenmatthews/Rails_Northwest_Coffee_Company" target="_">Repository |</a><a href="https://murmuring-wildwood-94431.herokuapp.com/" target="_"> Live Preview</a></h4>
-          <p>NWCC is a sample site made for a fictitious coffee marketplace. It utilizes the Faker Ruby gem to seed the items and reviews into the database. Creating this site helped me learn more about Ruby On Rails, styling, and databases.</p>
+          <p>NWCC is a sample site made for a fictitious coffee marketplace. The site has CRUD functionality that pushes into a SQL database, which has associations between products and reviews. It also utilizes the Faker gem to seed the products and reviews into the database, which you can see when you visit the site. Creating this app helped me learn more about Ruby On Rails, styling, and databases.</p>
+
+          <h3> Portland Future Leaders In Tech (pdxFLIT)</h3> 
+          <h4><a href = "https://github.com/PDXFlit/website" target = "_"> Repository | </a>
+          <a href="https://pdxflit.com/" target= "_"> Live Preview</a></h4> 
+          <p>I helped build the main pdxFLIT site, which showcases the local <a href = "https://www.meetup.com/pdxFLIT-Portland-Future-Leaders-In-Tech/"
+          target = "_"> meetup </a> that I started in April 2018 and continue to run. We are working on adding open source documentation to the site so that we can help people get into the world of open source make their first contributions. My specific contributions to this site included styling, making the "about" and "contact" pages, and writing the organization's Code of Conduct. I have also played a role in merging branches and reviewing pull requests. This site utilizes React and Gatsby.</p>
 
           <h3>Angular Study App</h3>
           <h4><a href="https://github.com/masenmatthews/Angular_Study_App" target="_">Repository |</a><a href="https://angular-teameek-study-app.firebaseapp.com" target="_"> Live Preview</a></h4>
-          <p>This is a collaborative study app that was made with Angular 2. The app has blog, forum, and live chat features to help collaborators succeed. It also possesses authentication functionality, hosting and database features through Firebase, and Materialize styling.</p>
+          <p>This is a collaborative study app that was made with Angular 2. The app has blog, forum, and live chat features to help collaborators succeed. On the software side, it possesses authentication features and CRUD functionality. The site utilizes Firebase for hosting and database functionality and it is styled with Materialize CSS.</p>
 
           <h3>React Weather App</h3>
           <h4><a href="https://github.com/masenmatthews/React-Weather-App" target="_">Repository |</a><a href="https://agitated-franklin-55a50d.netlify.com/" target="_"> Live Preview</a></h4>
-          <p>This is a simple weather app that was built with React. It pulls weather data from the OpenWeather API when the user enters a city and the country that it is in. This project has helped me learn more about React, state, and pulling data from APIs.</p>
+          <p>This is a simple weather app that was built with React. It pulls weather data from the OpenWeather API when the user enters a city and the country that it is in. This project helped me learn more about React, state, and pulling data from APIs.</p>
 
-          <h3>AccessiReference</h3>
-          <h4><a href="https://github.com/masenmatthews/AccessiReference" target="_">Repository |</a><a href="https://practical-nightingale-ecd7dc.netlify.com/" target="_"> Live Preview</a></h4>
-          <p>AccessiReference is designed to act as a simple, convienent reference for accessibility functionality. The goal of this app is to make it easy for developers to learn more about accessible design choices so that they can practice adding accessibility features to their applications. This application is currently in the very early stages of development. It is being completed while I work through Deque University's online web accessibility curriculum.</p>
+          <h3>BookPlace (in progress)</h3>
+          <h4><a href="https://github.com/masenmatthews/CS50W-Project1" target="_">Repository |</a> Live Preview Coming Soon</h4>
+          <p>This is a site that I'm building as I go through Harvard's CS50W EdX course. It utilizes Python, Flask, SQLAlchemy, and PostgreSQL. It also draws data from the Goodreads API.</p>
 
           <h2 className="major">Talks</h2>
           <h3>Donut.js (11/2018)</h3>
           <h3>Developing for All: The Who, What, and Why of Accessibility in Technology</h3>
           <h4>< a href="https://www.youtube.com/watch?v=3Ktk7UOmdqs&index=2&list=PLclEcT4yxER43F0Nwhc30A4nwJujcATjl" target = "_" > Video recording </a></h4>
           <p>A talk that I gave at a Portland Meetup about the importance of accessibility in technology.</p>
-
-          <h2 className="major">Open source</h2>
-          <h3>Portland Future Leaders In Tech (pdxFLIT)</h3>
-          <h4><a href="https://github.com/PDXFlit/website" target="_">Repository |</a><a href="https://pdxflit.com/" target="_"> Live Preview</a></h4>
-          <p>I helped build the main pdxFLIT site, which showcases the local<a href="https://www.meetup.com/pdxFLIT-Portland-Future-Leaders-In-Tech/" target="_"> meetup</a> that I started and continue to run. This site is being operated as an open source project because we want to help people get into the world of open source and assist them in making their first contributions. My specific contributions to this site have included making the "about" page, the "contact" page, and the Code of Conduct. I have also played a role in merging branches and approving pull requests.</p>
 
           {close}
         </article>
