@@ -49,7 +49,7 @@ class Main extends React.Component {
           <h4><a href="https://github.com/masenmatthews/React-Weather-App" target="_">Repository |</a><a href="https://agitated-franklin-55a50d.netlify.com/" target="_"> Live Preview</a></h4>
           <p>This is a simple weather app that was built with React. It pulls weather data from the OpenWeather API when the user enters a city and the country that it is in. This project helped me learn more about React, state, and pulling data from APIs.</p>
 
-          <h3>BookPlace (in progress)</h3>
+          <h3>Bookstone (in progress)</h3>
           <h4><a href="https://github.com/masenmatthews/CS50W-Project1" target="_">Repository |</a> Live Preview Coming Soon</h4>
           <p>This is a site that I'm building as I go through Harvard's CS50W EdX course. It utilizes Python, Flask, SQLAlchemy, and PostgreSQL. It also draws data from the Goodreads API.</p>
 
