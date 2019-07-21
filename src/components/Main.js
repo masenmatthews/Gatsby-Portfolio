@@ -29,29 +29,27 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h1 className="major">Work</h1>
           <span className="image main"><img src={code} alt="Laptop with coding window open on the display." /></span>
-          <h2 className="major">Personal projects</h2>
+          <h2 className="major">Technical Work Experience</h2>
+          <h3>Software Development/Analyst Programmer Internship - Portland State University</h3>
+          <p>I have been interning at Portland State University since May 2019. The focus of my internship has involved working on a grant-funded educational mobile platform called UEBPrep. UEBPrep is designed to serve as a quick, accessible resource for parents and educators who want to learn braille. The app is built with React Native, Redux, Jest, AWS, and Auth0. We are in the early stages of developing a suite of fully accessible, blind-friendly mobile games, launching the app, and adding a math course.</p>
+          <p>Throughout the course of this internship, I have been involved in software development, content development, research, testing, and other projects. Some of my specific responsibilities have included working on the UEBPrep codebase, creating an exhaustive app testing framework, researching and implementing usability practices, writing user stories, and shaping the design and research processes for the aforementioned blind-friendly mobile games.</p>
+
+          <h3>Software Development Internship - SyncHealth</h3>
+          <p>In 2018, I worked on the codebase for SyncHealth. SyncHealth is an app designed to help physicians and their patients by streamlining the process of tracking blood pressure readings. The app is built with an API-only Rails backend and a React frontend. It also utilizes SMART on FHIR medical technology. During my time at the internship, we worked on rebuilding the backend and integrating it into the React portion of the app. We also worked on adding SMART on FHIR functionality to the app.</p>
+
+          <h2 className="major">Personal Projects</h2>
+          <h3>Literary Portal</h3> 
+          <h4><a href = "https://github.com/masenmatthews/Python-Literary-Portal" target = "_"> Repository | </a>
+          <a href="https://secure-thicket-78637.herokuapp.com/" target= "_"> Live Preview</a></h4> 
+          <p>This is an online book database and review site that I made with Python, Flask, SQL, and the Goodreads API. Scripts are used to create and populate the database tables from a CSV file. There is also authentication and review functionality.</p>
 
           <h3>Northwest Coffee Company</h3>
           <h4><a href="https://github.com/masenmatthews/Rails_Northwest_Coffee_Company" target="_">Repository |</a><a href="https://murmuring-wildwood-94431.herokuapp.com/" target="_"> Live Preview</a></h4>
-          <p>NWCC is a sample site made for a fictitious coffee marketplace. The site has CRUD functionality that pushes into a SQL database, which has associations between products and reviews. It also utilizes the Faker gem to seed the products and reviews into the database, which you can see when you visit the site. Creating this app helped me learn more about Ruby On Rails, styling, and databases.</p>
-
-          <h3> Portland Future Leaders In Tech (pdxFLIT)</h3> 
-          <h4><a href = "https://github.com/PDXFlit/website" target = "_"> Repository | </a>
-          <a href="https://pdxflit.com/" target= "_"> Live Preview</a></h4> 
-          <p>I helped build the main pdxFLIT site, which showcases the local <a href = "https://www.meetup.com/pdxFLIT-Portland-Future-Leaders-In-Tech/"
-          target = "_"> meetup </a> that I started in April 2018 and continue to run. We are working on adding open source documentation to the site so that we can help people get into the world of open source make their first contributions. My specific contributions to this site included styling, making the "about" and "contact" pages, and writing the organization's Code of Conduct. I have also played a role in merging branches and reviewing pull requests. This site utilizes React and Gatsby.</p>
+          <p>NWCC is a Ruby on Rails application for a fictitious coffee marketplace. The site has CRUD functionality, a PostgreSQL database for products and reviews, and a script that populates the database with information from the Faker gem.</p>
 
           <h3>Angular Study App</h3>
           <h4><a href="https://github.com/masenmatthews/Angular_Study_App" target="_">Repository |</a><a href="https://angular-teameek-study-app.firebaseapp.com" target="_"> Live Preview</a></h4>
-          <p>This is a collaborative study app that was made with Angular 2. The app has blog, forum, and live chat features to help collaborators succeed. On the software side, it possesses authentication features and CRUD functionality. The site utilizes Firebase for hosting and database functionality and it is styled with Materialize CSS.</p>
-
-          <h3>React Weather App</h3>
-          <h4><a href="https://github.com/masenmatthews/React-Weather-App" target="_">Repository |</a><a href="https://agitated-franklin-55a50d.netlify.com/" target="_"> Live Preview</a></h4>
-          <p>This is a simple weather app that was built with React. It pulls weather data from the OpenWeather API when the user enters a city and the country that it is in. This project helped me learn more about React, state, and pulling data from APIs.</p>
-
-          <h3>Bookstone (in progress)</h3>
-          <h4><a href="https://github.com/masenmatthews/CS50W-Project1" target="_">Repository |</a> Live Preview Coming Soon</h4>
-          <p>This is a site that I'm building as I go through Harvard's CS50W EdX course. It utilizes Python, Flask, SQLAlchemy, and PostgreSQL. It also draws data from the Goodreads API.</p>
+          <p>This is a collaborative study app that was made with Angular 2. The app has blog, forum, and live chat features to help collaborators succeed. On the software side, it possesses authentication features and CRUD functionality. The site utilizes Firebase for hosting and database functionality and it is styled with Materialize CSS. Please note that some of the functionality for this application has been lost due to NPM deprecations.</p>
 
           <h2 className="major">Talks</h2>
           <h3>Donut.js (11/2018)</h3>
